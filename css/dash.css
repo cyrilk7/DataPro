@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* body{
+    background-color: green;
+} */
+.container{
+    display: flex;
+    height: 100vh;
+    /* width: 100%; */
+    /* background-color: red; */
+    
+
+}
+
+.left-pane{
+    background-color: #E83B3B;
+    flex-basis: 25%;
+    /* margin: 10%; */
+}
+
+.right-pane{
+    background-color: white;
+    flex-basis: 75%;
+}
+
+.left-pane .logo-img{
+    width: 200px;
+    height: 80px;
+    padding: 10%;
+}
+
+.menu-items{
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    margin: 4% 20%;
+    /* justify-content: center; */
+}
+
+.menu-items p, .logout p{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.menu-items img{
+    width: 45px;
+    height: 35px;
+}
+
+.logout{
+    display: flex;
+    align-items: center;
+    margin: 90% 22%;
+}
+
+.app-bar{
+    width: 100%;
+    height: 7%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    padding: 0 3%;
+}
+
+.app-bar .search-box{
+    background-color: #F0ECEC;
+    border: none;
+    width: 40%;
+    height: 50%;
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+
+.app-bar .search-box::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.avatar {
+    width: 40px; /* Adjust the size of the avatar */
+    height: 40px;
+    border-radius: 50%; /* Make the avatar image circular */
+    overflow: hidden; /* Hide any content that exceeds the rounded shape */
+    background-color: lightgray; /* Optional background color for the avatar */
+}
+  
+.avatar-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image fills the container without distortion */
+}
+
+.profile{
+    display: flex;
+    margin-left: 30%;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    /* margin-left: 20px; */
+}
+
+.arrow-down {
+    font-size: 19px;
+}
+
+.right-pane .body{
+    padding: 3%;
+}
+
+.right-pane .body h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+
+}
+
+.right-pane{
+    background-color: #F7F7F7;
+}
+
+
+.right-pane .body .entry-box{
+    width: 950px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2%;
+    padding: 3% 5%;
+    /* border: 10px solid red; */
+}
+
+.row{
+    display: flex;
+    margin-bottom: 2%;
+    /* justify-content: space-between; */
+    gap: 10%;
+}
+
+.row .entry p{
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+.row .entry input{
+    width: 400px;
+    height: 4px;
+    background-color: #F0ECEC;
+    border: none;
+    padding: 4%;
+}
